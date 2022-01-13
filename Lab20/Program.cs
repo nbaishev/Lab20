@@ -39,7 +39,7 @@ namespace Lab20
         }
         static double BallVolume(double r)
         {
-            return 4 / 3 * Math.PI * r * r * r;
+            return (Math.PI * r * r * r * 4 / 3);
         }
     }
 }
